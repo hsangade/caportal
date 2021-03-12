@@ -1,0 +1,130 @@
+div.section{
+    text-align: center;
+    max-height: 10%;
+    max-width: 80%;
+    margin-bottom: 15%;
+}
+div.section1{
+max-width: 700px;
+max-height: 47px;
+padding-left: 50px;
+margin-left: 50px;   
+
+}
+div.section2{
+max-width: 500px;
+float:right;
+}
+div.card{
+font-family: Montserrat,sans-serif!important;
+line-height: 22px;
+font-size: 15px;
+font-weight: 400;
+
+}  
+div.image{
+max-width: 100%;
+max-width: 15%;
+margin-left: 50px;
+clip-path: circle();
+border-radius: 500px;
+margin-left: 250px;
+}
+div.text{
+max-width: 500px;
+float: right;
+position: relative;
+margin-top: -180px;
+margin-right: 320px;
+margin-bottom: 150px;
+
+
+}
+
+div.team{ 
+text-align: center;
+display: flex;
+width: 50%;
+margin-left: 200px;
+margin-bottom: 20px;
+justify-content: space-evenly;
+flex-flow: wrap;
+
+
+
+
+}
+
+div.team.team_member{
+margin: 5px;
+box-shadow: 0 4px 0 rgba(0, 0, 0, 2);
+max-width: 300px;
+margin: auto;
+background-color: white;
+text-align: center;
+border-radius: 400px;
+padding-bottom: 15px;
+}
+div.team.team_image .img{
+max-width: 100%;
+max-width: 15%;
+margin-left: 50px;
+clip-path: circle();
+border-radius: 500px;
+margin-left: 250px;
+
+}
+div.team.team_member h3{
+font-size: 26px;
+margin-top: 50px;
+}
+div.service{
+display: flex;
+min-height:50vh;
+left: 25px;
+align-items: 85px;
+margin-left: 95px;
+
+}
+div.card1{
+widows: 1300px;;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin:20px;
+position:relative;
+width: 400px;
+background:white;
+padding: 100px 60px 40px;
+box-shadow: 0 15px 45px rgb(0, 0, 0,1);
+}
+div.service.card1{
+justify-content: space-between;
+position: relative;
+width: 320px;
+background:black;
+padding: 100px 60px 40px;
+box-shadow: 0 15px 45px rgb(0, 0, 0,1);
+}
+div.card3{
+display: flex;
+min-height:50vh;
+left: 10px;
+align-items: 100px;
+
+
+}
+div.invester{
+text-align: center;
+display: flex;
+widows: 1300px;;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin:20px;
+position:relative;
+width: 400px;
+background:white;
+padding: 100px 60px 40px;
+box-shadow: 0 15px 45px rgb(0, 0, 0,1);
+}

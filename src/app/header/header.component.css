@@ -7,7 +7,7 @@
     background: #ff5f6d;
     background: -webkit-linear-gradient(to right, #ff5f6d, #ffc371);
     background: linear-gradient(to right, #ff5f6d, #ffc371);
-    min-height: 100vh;
+    min-height: 100%;
     }
 
     h1{
@@ -17,7 +17,7 @@
     }
     
     /* Styling the area of the slides */
-    #slideshow { 
+    #slideshow {
     font-family: 'Courier New', Courier, monospace; 
     overflow: hidden; 
     margin: 0 auto; 
@@ -27,15 +27,15 @@
     with a fixed width and height */
     .slide { 
     float: left; 
-    height: 510px; 
-    width: 728px; 
+    height: 40%; 
+    width: 50%; 
     } 
     
     /* Add animation to the slides */
     .slide-wrapper { 
     /* Calculate the total width on the 
     basis of number of slides */
-    width: calc(728px * 2); 
+    width: calc(50% * 2); 
     
     /* Specify the animation with the 
     duration and speed */
@@ -57,11 +57,11 @@
     /* Calculate the margin-left for 
     each of the slides */
     20% { 
-        margin-left: 0px; 
+        margin-left: 0%; 
     } 
     
     40% { 
-        margin-left: calc(-728px * 1); 
+        margin-left: calc(-50% * 1); 
       } 
     }
 
@@ -70,12 +70,12 @@
         background-color: #000000;
         border: none;
         color: white;
-        padding: 15px 32px;
+        padding: 1% 2%;
         text-align: center;
         text-decoration: none;
         display: inline-block;
         font-size: 100%;
-        margin: 4px 2px;
+        margin: 2% 1%;
         cursor: pointer;
     }
 
@@ -92,7 +92,7 @@
         text-align: left;
         transition: transform 0.6s;
         transform-style: preserve-3d;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        box-shadow: 0% 1% 2% 0% rgba(0,0,0,0.2);
     }
       
     .flip-card:hover .flip-card-inner {
@@ -118,11 +118,11 @@
     .card-column {
         float: left;
         width: 25%;
-        padding: 0 10px;
+        padding: 0% 5%;
       }
       
       /* Remove extra left and right margins, due to padding */
-    .card-row {margin: 0 -5px;}
+    .card-row {margin: 0% -3%;}
       
       /* Clear floats after the columns */
     .card-row:after {

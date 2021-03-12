@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu" /> -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<body>
+     <section id="Freemiun">
+        <div class="Freemiun container">
+        <div><h1 class="section-title">Try Our Freemiun Plan</h1></div>
+        <p>Free lead management system ideal for startup and small businesses.</p>
+         <div class="Freemiun-items">
+            <div class="Freemiun-item">
+             <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png"/></div>
+                <div class="Freemiun-info">
+                <h1>Create Manual Leads</h1>
+                </div>
+             </div>
+             <div class="Freemiun-item">
+             <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png"/></div>
+                <div class="Freemiun-info">
+                <h1>Custom Dashboard</h1>
+                </div>
+             </div>
+             <div class="Freemiun-item">
+             <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png"/></div>
+                <div class="Freemiun-info">
+                <h1>Task Creation</h1>
+                </div>
+             </div>
+             <div class="Freemiun-item">
+             <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png"/></div>
+                <div class="Freemiun-info">
+                <h1>Push Notification</h1>
+                </div>
+             </div>
+             <div class="Freemiun-item">
+             <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png"/></div>
+                <div class="Freemiun-info">
+                <h1>Lead Dashboard</h1>
+                </div>
+             </div>
+         </div>
+         <a href="#" type="button" class="cta">Start a Free Trial</a>
+     </div>
+ </section>
+ <section id="pricing_card"> 
+    <p style="text-align: center;">10x5 email support provided on freemiun plan.</p>
+     <div><h1 class="section-title">Pricing plans card</h1></div>
+     <div class="pricing_card container">
+        <div class="top">
+            <div class="toggle-btn">
+              <span style="margin: 0.8em;">Annually</span>
+              <label class="switch">
+<input type="checkbox" id="checkbox" onclick="check()">
+<span class="slider round"></span>
+              </label>
+              <span style="margin: 0.8em;">Month</span>
+            </div>
+        </div>
+        <div class="package-container">
+            <div class="price-column" onclick="select()">
+<div class="price-header">
+    <div class="plan-name">Basic</div>
+<div class="price">
+    <div class="text1">
+<!-- <div class="dollar-first">$</div> -->
+$10
+<div class="per-month">/month</div>
+</div>
+ <div class="text2"> 
+<!-- <div class="dollar-second">$</div> -->
+$20
+<div class="per-year">/year</div>
+</div>
+</div>
+
+
+           </div>
+           <div class="divider"></div>
+            <div class="feature">
+                <img src="assets/img/right.svg">
+            Feature A
+           </div>
+            <div class="feature">
+                  <img src="assets/img/right.svg">
+            Feature A
+           </div>
+            <div class="feature">
+                  <img src="assets/img/right.svg">
+            Feature A
+           </div>
+            <div class="feature">
+                  <img src="assets/img/right.svg">
+            Feature A
+           </div>
+            <div class="feature">
+                  <img src="assets/img/right.svg">
+            Feature A
+           </div>
+        <button class="price_cta">Start Now</button>
+       </div>
+       <div class="price-column" onclick="premium()">
+<div class="price-header">
+    <div class="plan-name">Premium</div>
+<div class="price">
+    <div class="text1">
+<!-- <div class="dollar-first">$</div> -->
+$30
+<div class="per-month">/month</div>
+</div>
+<div class="text2">
+<!-- <div class="dollar-second">$</div> -->
+$40
+<div class="per-year">/year</div>
+</div>
+</div>
+
+           </div>
+           <div class="divider"></div>
+           <div class="feature">
+                <img src="assets/img/right.svg">
+            Feature A
+           </div>
+            <div class="feature">
+                  <img src="assets/img/right.svg">
+            Feature A
+           </div>
+            <div class="feature">
+                  <img src="assets/img/right.svg">
+            Feature A
+           </div>
+            <div class="feature">
+                  <img src="assets/img/right.svg">
+            Feature A
+           </div>
+            <div class="feature">
+                  <img src="assets/img/right.svg">
+            Feature A
+           </div>
+           <button class="price_cta">Start Now</button>
+       </div>
+       <div class="price-column" onclick="select_one()">
+<div class="price-header">
+    <div class="plan-name">Unlimited</div>
+<div class="price">
+    <div class="text1">
+<!-- <div class="dollar-first">$</div> -->
+$50
+<div class="per-month">/month</div>
+</div>
+<div class="text2">
+<!-- <div class="dollar-second">$</div> -->
+$60
+<div class="per-year">/year</div>
+</div></div>
+
+
+           </div>
+           <div class="divider"></div>
+
+          <div class="feature">
+                <img src="assets/img/right.svg">
+            Feature A
+           </div>
+            <div class="feature">
+                  <img src="assets/img/right.svg">
+            Feature A
+           </div>
+            <div class="feature">
+                  <img src="assets/img/right.svg">
+            Feature A
+           </div>
+            <div class="feature">
+                  <img src="assets/img/right.svg">
+            Feature A
+           </div>
+            <div class="feature">
+                  <img src="assets/img/right.svg">
+            Feature A
+           </div>
+           <button class="price_cta">Start Now</button>
+       </div>
+ <div class="slidecontainer_range">
+<div class="slidecontainer">
+        <button type="button" (click)="minus_sms()" style="background: crimson;" class="layer_add" id="sms_slider_minus">-</button>
+          <input type="range" [value]="quantity_sms" min="0" max="100" value="1" step="1" class="sms_slider">
+          <button type="button" (click)="plus_sms()" style="background: crimson;" class="layer_add" id="sms_slider_plus">+</button>
+             <p class="text-center">Sms:</p>
+                    </div>
+<div class="slidecontainer">
+     <button type="button" (click)="minus_mail()" style="background: crimson;" class="layer_add" id="sms_slider_minus">-</button>
+            <input type="range" [value]="quantity_mail" min="0" max="100" value="1" step="1" class="mail_slider">
+            <button type="button" (click)="plus_mail()" style="background: crimson;" class="layer_add" id="sms_slider_plus">+</button>
+             <p class="text-center">eMail:</p>
+                    </div>
+<div class="slidecontainer">
+     <button type="button" (click)="minus_call()" style="background: crimson;" class="layer_add" id="sms_slider_minus">-</button>
+            <input type="range" [value]="quantity_call" min="0" max="100" value="1" step="1" class="call_slider">
+            <button type="button" (click)="plus_call()" style="background: crimson;" class="layer_add" id="sms_slider_plus">+</button>
+             <p class="text-center">Call:</p>
+                    </div> 
+ <div class="slidecontainer">
+     <button type="button" (click)="minus_user()" style="background: crimson;" class="layer_add" id="sms_slider_minus">-</button>
+            <input type="range" [value]="quantity_user" min="0" max="100" value="1" step="1" class="user_slider">
+            <button type="button" (click)="plus_user()" style="background: crimson;" class="layer_add" id="sms_slider_plus">+</button>
+            <!-- <input type="text" [value]="quantity"> -->
+             <p class="text-center">User:</p>
+
+                    </div>
+                   
+<div class="text1">
+<div class="per-month">/month</div>
+</div>
+<div class="text2">
+<div class="per-year">/year</div>
+</div>
+<p id="demo" onclick="select()"></p>
+<p id="premium_demo" onclick="premium()"></p>
+
+                   
+
+ <!-- <button type="button" (click)="minus()"><i class="fa fa-minus"></i></button> -->
+<!-- <input type="text" [value]="quantity"> -->
+<!-- <button type="button" (click)="plus()"><i class="fa fa-plus"></i></button> -->
+                </div>
+</div>
+     </div>
+</section>
+<br>
+<br>
+<section id="questions">
+<div class="questions container">
+<div><h1 class="section-title">Frequently Asked Questions</h1></div>
+<div class="col-md-12">
+<div class="questionset_left">
+
+    <div class="col-md-6">
+<div class="question_left">
+<h4>How does freemium work?</h4>
+<p>Freemium is a combination of Free + Premium package with the validity of 1 year to use. Here you will get one user access. With this plan you can Create manual leads, You can customise (Stages, Fields, Dashboards) according to your company needs, One can create tasks for follow ups and also access to lead box reports (CRM).</p>
+</div>
+<br>
+<div class="question_left">
+<h4>How does freemium work?</h4>
+<p>Freemium is a combination of Free + Premium package with the validity of 1 year to use. Here you will get one user access. With this plan you can Create manual leads, You can customise (Stages, Fields, Dashboards) according to your company needs, One can create tasks for follow ups and also access to lead box reports (CRM).</p>
+</div>
+<br>
+<div class="question_left">
+<h4>How does freemium work?</h4>
+<p>Freemium is a combination of Free + Premium package with the validity of 1 year to use. Here you will get one user access. With this plan you can Create manual leads, You can customise (Stages, Fields, Dashboards) according to your company needs, One can create tasks for follow ups and also access to lead box reports (CRM).</p>
+</div>
+</div>
+</div>
+<div class="questionset_right">
+<div class="col-md-6">
+<div class="question_right">
+<h4>How does freemium work?</h4>
+<p>Freemium is a combination of Free + Premium package with the validity of 1 year to use. Here you will get one user access. With this plan you can Create manual leads, You can customise (Stages, Fields, Dashboards) according to your company needs, One can create tasks for follow ups and also access to lead box reports (CRM).</p>
+</div>
+<br>
+<div class="question_right">
+<h4>How does freemium work?</h4>
+<p>Freemium is a combination of Free + Premium package with the validity of 1 year to use. Here you will get one user access. With this plan you can Create manual leads, You can customise (Stages, Fields, Dashboards) according to your company needs, One can create tasks for follow ups and also access to lead box reports (CRM).</p>
+</div>
+<br>
+<div class="question_right">
+<h4>How does freemium work?</h4>
+<p>Freemium is a combination of Free + Premium package with the validity of 1 year to use. Here you will get one user access. With this plan you can Create manual leads, You can customise (Stages, Fields, Dashboards) according to your company needs, One can create tasks for follow ups and also access to lead box reports (CRM).</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+</body>
+</html>
+<br><br>
+<app-footer></app-footer>

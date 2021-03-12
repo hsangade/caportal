@@ -8,6 +8,9 @@ import { HeaderComponent } from './header/header.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {CarouselModule} from 'primeng/carousel';
 import { FooterComponent } from './footer/footer.component';
+import { ContactusComponent } from './contactus/contactus.component';
+import { PricingComponent } from './pricing/pricing.component';
+import { AboutusComponent } from './aboutus/aboutus.component';
 
 
 @NgModule({
@@ -16,6 +19,9 @@ import { FooterComponent } from './footer/footer.component';
     TopnavbarComponent,
     HeaderComponent,
     FooterComponent,
+    ContactusComponent,
+    PricingComponent,
+    AboutusComponent,
   ],
   imports: [
     BrowserModule,
