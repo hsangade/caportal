@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+declare const check:any;
+declare const select:any;
+declare const premium:any;
 
 @Component({
   selector: 'app-root',
@@ -7,4 +10,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'caportal';
+
+  onClick() {
+    check();
+    select();
+    premium();
+  }
+
 }

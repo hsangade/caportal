@@ -1,98 +1,85 @@
-<html> 
-<head> 
-<title>HTML and CSS Slideshow</title> 
-</head> 
+<html>
 <body> 
+	<div class='container-fluid'>
+		<div class='col-12'>
+		<ngb-carousel>
+		<ng-template ngbSlide>
+		  <img src="assets\img\header\1.svg">
+		</ng-template>
+		<ng-template ngbSlide>
+		  <img src="assets\img\header\3.svg">
+		</ng-template>
+	  </ngb-carousel>
+	  </div>
+	  </div><br><br>
 
-<!-- Define the slideshow container -->
-
-<div id="slideshow"> 
-	<div class="slide-wrapper"> 
-
-	<!-- Define each of the slides 
-		and write the content -->
-	<div class="slide"> 
-		<h1 class="slide-number"> 
-            <img src="assets\img\header\1.svg" alt="1">
-        </h1>
-        FasterEffective Customer Success Management To Scale
-	</div>  
-	<div class="slide"> 
-		<h1 class="slide-number"> 
-		    <img src="assets\img\header\3.svg" alt="1"> 
-			<br>
-		</h1> 
-        FasterEffective Customer Success Management To Scale
-	</div>  
-	</div>
-</div>
-<br><br>
 <a href="#" class="buttons">Start Your Free Trail</a>&nbsp;
 <a href="#" class="buttons">Schedule a demo</a>
 <br><br><br>
-<h1>Industries Benefited :</h1><br>
-<div class="row">
-<div class="column">
-<div class="flip-card">
-	<div class="flip-card-inner">
-	  <div class="flip-card-front">
-		<img src="assets\img\header\card1.png" alt="Avatar" style="width:300px;height:300px;">
-	  </div>
-	  <div class="flip-card-back"><br>
-		<h1>Finance</h1>
-		&nbsp;Integrated CRM designed for the finance &nbsp;industry to streamline customer-centric &nbsp;processes including:
-		<ul>
-			<li>Financial Services</li>
-			<li>P2P Lending</li>
-			<li>Banking</li>
-			<li>Insurance</li>
-		</ul>
-	  </div>
-	</div>
+<h1>Industries Benefited :</h1><br><br>
+<div class="card-deck" style="text-align: left;">
+    <div class="card">
+      <img src="assets\img\header\card1.png" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Finance</h5>
+        <p class="card-text">Integrated CRM designed for the finance industry to streamline customer-centric processes including:</p>
+        <p class="card-text"><small>
+            <ul><b>
+                <li>Financial Services</li>
+                <li>P2P Lending</li>
+                <li>Banking</li>
+                <li>Insurance</li></b>
+            </ul>
+        </small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="assets\img\header\card2.png" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Education</h5>
+        <p class="card-text">Teleduce caters to all sections of the education industries which includes:</p>
+        <p class="card-text"><small>
+            <ul><b>
+                <li>EdTech</li>
+                <li>Education Consultancies</li>
+                <li>Training Institutes</li>
+                <li>Online Ventures</li></b>
+            </ul>
+        </small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="assets\img\header\card3.png" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Healthcare</h5>
+        <p class="card-text">Access complete customer information faster and enhance patient experience with an integrated platform catering to:</p>
+        <p class="card-text"><small>
+            <ul><b>
+                <li>Hospitals</li>
+                <li>Diagnosis Center</li>
+                <li>Health Service Provider</li>
+                <li>Clinics and Blood Banks</li></b>
+            </ul>
+        </small></p>
+      </div>
+    </div>
+    <div class="card">
+        <img src="assets\img\header\card4.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Manufacturing</h5>
+          <p class="card-text">Specialized CRM for manufacturing that fits seamlessly into the business framework including:</p>
+          <p class="card-text"><small>
+              <ul><b>
+                  <li>Lead capturing from Indiamart, Trade India & Justdial</li>
+                  <li>Automatic lead distribution</li>
+                  <li>Seamless Integration</li></b>
+              </ul>
+          </small></p>
+        </div>
+      </div>
   </div>
-  </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <div class="column">
-  <div class="flip-card">
-	<div class="flip-card-inner">
-	  <div class="flip-card-front">
-		<img src="assets\img\header\card2.png" alt="Avatar" style="width:300px;height:300px;">
-	  </div>
-	  <div class="flip-card-back"><br>
-		<h1>Education</h1>
-		&nbsp;Teleduce caters to all sections of the &nbsp;education industries which includes:
-		<ul>
-			<li>EdTech</li>
-			<li>Education Consultancies</li>
-			<li>Training Institutes</li>
-			<li>Online Ventures</li>
-		</ul>
-	  </div>
-	</div>
-  </div>
-</div>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<div class="column">
-	<div class="flip-card">
-	  <div class="flip-card-inner">
-		<div class="flip-card-front">
-		  <img src="assets\img\header\card3.png" alt="Avatar" style="width:300px;height:300px;">
-		</div>
-		<div class="flip-card-back"><br>
-		  <h1>Healthcare</h1>
-		  &nbsp;Access complete customer information &nbsp;faster and enhance patient experience &nbsp;with an integrated platform catering to:
-		  <ul>
-			  <li>EdTech</li>
-			  <li>Education Consultancies</li>
-			  <li>Training Institutes</li>
-			  <li>Online Ventures</li>
-		  </ul>
-		</div>
-	  </div>
-	</div>
-  </div>
-</div>
+
+
 </body> 
 </html>
 <app-footer></app-footer>

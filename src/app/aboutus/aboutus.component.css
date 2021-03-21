@@ -1,130 +1,153 @@
-div.section{
+.cbox{
+    background-image: url(https://d2woyw6vp5g0b2.cloudfront.net/images/landingpage/About_us_hero_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -15px;
+    position: relative;
+    height: 400px;
     text-align: center;
-    max-height: 10%;
-    max-width: 80%;
-    margin-bottom: 15%;
+    margin-bottom: 5%;
+    
+
+    }
+    .heading{
+      margin-top: 25%;
+     margin-left: 30%;
+    }
+    .dbox{
+        padding-left: 10%;
+
+    }
+    .dd{
+        padding-left: 10%;
+        padding-top: 5%;
+    }
+    .ebox{
+        padding-top: 02%;
+        padding-bottom: 02%;
+    }
+div.image1{
+    margin-top: 3%;
+    max-width: 100%;
+    max-width: 20%;
+    clip-path: circle();
+    border-radius: 50%;
+    margin-left: 10%;
 }
-div.section1{
-max-width: 700px;
-max-height: 47px;
-padding-left: 50px;
-margin-left: 50px;   
+ .gbox{
+     margin-left: 23%;
+    padding-top: 03%;
+    padding-bottom: 02%;
 
+ }
+ h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat,sans-serif!important;
 }
-div.section2{
-max-width: 500px;
-float:right;
-}
-div.card{
-font-family: Montserrat,sans-serif!important;
-line-height: 22px;
-font-size: 15px;
-font-weight: 400;
+ .image2{
+    max-width: 20%;
+    clip-path: circle();
+    border-radius: 50%;
+    padding-left: 1%;
+    
+     }
+   .hbox{
+    padding: 5%;
+    background-color: #eff;
+    box-sizing: border-box;
+    display: block;
+    padding-left: 20%;
+    line-height: 1.42857143;
+    color: #333;
 
-}  
-div.image{
-max-width: 100%;
-max-width: 15%;
-margin-left: 50px;
-clip-path: circle();
-border-radius: 500px;
-margin-left: 250px;
-}
-div.text{
-max-width: 500px;
-float: right;
-position: relative;
-margin-top: -180px;
-margin-right: 320px;
-margin-bottom: 150px;
-
-
-}
-
-div.team{ 
-text-align: center;
-display: flex;
-width: 50%;
-margin-left: 200px;
-margin-bottom: 20px;
-justify-content: space-evenly;
-flex-flow: wrap;
-
+    
+   }  
+   .team-card{
+    width: 100%;
+    max-width: 280px;
+    margin-right: 5%;
+   }
+   .image3{
+    width: 8rem;
+    height: 10rem;
+    border-radius: 40%;
+    clip-path: circle();
+    
+    
+  
+   }
+   .team-text{
+    font-family: Montserrat,sans-serif!important;  
+   }
+   
+   .image4{
+    clip-path: circle();
+    width: 12rem;
+    height: 16rem;
+    border: radius 100%; 
+   }
 
 
 
-}
 
-div.team.team_member{
-margin: 5px;
-box-shadow: 0 4px 0 rgba(0, 0, 0, 2);
-max-width: 300px;
-margin: auto;
-background-color: white;
-text-align: center;
-border-radius: 400px;
-padding-bottom: 15px;
-}
-div.team.team_image .img{
-max-width: 100%;
-max-width: 15%;
-margin-left: 50px;
-clip-path: circle();
-border-radius: 500px;
-margin-left: 250px;
 
-}
-div.team.team_member h3{
-font-size: 26px;
-margin-top: 50px;
-}
+
+
 div.service{
-display: flex;
-min-height:50vh;
-left: 25px;
-align-items: 85px;
-margin-left: 95px;
-
-}
-div.card1{
-widows: 1300px;;
-display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
-margin:20px;
-position:relative;
-width: 400px;
-background:white;
-padding: 100px 60px 40px;
-box-shadow: 0 15px 45px rgb(0, 0, 0,1);
-}
-div.service.card1{
-justify-content: space-between;
-position: relative;
-width: 320px;
-background:black;
-padding: 100px 60px 40px;
-box-shadow: 0 15px 45px rgb(0, 0, 0,1);
-}
-div.card3{
-display: flex;
-min-height:50vh;
-left: 10px;
-align-items: 100px;
+   display: flex;
+   min-height:50vh;
+   left: 25px;
+   align-items: 85px;
+   margin-left: 95px;
 
 
+}
+
+.integrated{
+    margin-left: 15%;
+    text-align: center;
+    margin-right: 20%;
+
+
+   
+}
+.card22{
+    background: #fff;
+    border: 2px solid #fff;
+    box-shadow: rgba(0,0,0,.18) 0.4rem 0.4rem 1.6rem 0;
+    
+    height: 220px;
+    width: 94%;
+    max-width: 370px;
+    margin-bottom: 5%;
+    font-family: Montserrat,sans-serif!important;
+    font-weight: 400;
+}
+.invester0
+{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #eff;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 div.invester{
-text-align: center;
-display: flex;
-widows: 1300px;;
-display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
-margin:20px;
-position:relative;
-width: 400px;
-background:white;
-padding: 100px 60px 40px;
-box-shadow: 0 15px 45px rgb(0, 0, 0,1);
+    background: #fff;
+    box-shadow: rgba(0,0,0,.18) 0.4rem 0.4rem 1.6rem 0;
+    border-radius: 25px;
+    width: 94%;
+    max-width: 350px;
+    padding: 20px;
+    margin: 60px auto;
+    margin-left: 5%;
+    display: block;
 }
+
+   .investimage
+   {
+    clip-path: circle();
+    width: 12rem;
+    height: 16rem;
+    border: radius 100%; 
+   }

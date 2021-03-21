@@ -6,12 +6,11 @@ import { AppComponent } from './app.component';
 import { TopnavbarComponent } from './topnavbar/topnavbar.component';
 import { HeaderComponent } from './header/header.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import {CarouselModule} from 'primeng/carousel';
 import { FooterComponent } from './footer/footer.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
-
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -22,12 +21,12 @@ import { AboutusComponent } from './aboutus/aboutus.component';
     ContactusComponent,
     PricingComponent,
     AboutusComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule,
-    CarouselModule
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
