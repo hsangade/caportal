@@ -26,3 +26,6 @@
         margin: 2% 1%;
         cursor: pointer;
     }
+    .buttons:hover{
+        background-color: grey;
+    }

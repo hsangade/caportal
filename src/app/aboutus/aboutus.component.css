@@ -2,7 +2,7 @@
     background-image: url(https://d2woyw6vp5g0b2.cloudfront.net/images/landingpage/About_us_hero_image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: -15px;
+    /*margin-top: -15px;*/
     position: relative;
     height: 400px;
     text-align: center;
